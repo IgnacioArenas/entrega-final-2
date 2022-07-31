@@ -1,0 +1,23 @@
+body{
+    background-color: lightslategrey;
+    box-sizing: border-box;
+}
+
+header div nav div ul li:hover{
+    transform: scale(1.1);
+    background-color:grey;
+}
+
+main div img{
+    transition: 0.2s;
+}
+
+main div img:hover{
+    transform: scale(1.1);
+}
+
+/* Media Queries */
+
+@media (max-width: 576px) and (min-width: 280px){
+    
+}
